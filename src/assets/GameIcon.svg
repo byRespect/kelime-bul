@@ -1,0 +1,17 @@
+<svg style="" xmlns="http://www.w3.org/2000/svg" width="88" height="88">
+  <defs>
+    <filter id="A" x="0" y="0" width="88" height="88" filterUnits="userSpaceOnUse">
+      <feOffset dy="2"></feOffset>
+      <feGaussianBlur stdDeviation="2" result="A"></feGaussianBlur>
+      <feFlood flood-opacity=".302"></feFlood>
+      <feComposite operator="in" in2="A"></feComposite>
+      <feComposite in="SourceGraphic"></feComposite>
+    </filter>
+  </defs>
+  <g transform="translate(-14 -108)">
+    <g transform="translate(14 108)" filter="url(#A)">
+      <rect width="76" height="76" rx="10" transform="translate(6 4)" fill="#65c466"></rect>
+    </g>
+    <path d="M38 136.4v-5h5.508v5zm0 5.374v-5.022h5.508v5.039zm0 5.369v-5.004h5.508v5.007zm0 5.364v-5h5.508v5zm0 5.374v-5.004h5.508v5.007zm0 5.355v-5h5.508v5zm0 5.374v-5.004h5.508v5.007zm11.8-32.22v-5.007h5.508v5.007zm0 5.374v-5.012h5.508v5.007zm0 5.369v-5.008h5.508v5.007zm0 10.738v-5.008h5.508v5.007zm0 5.36v-5.008h5.508v5.007zm0 5.369v-5h5.508v5zm5.868-32.21v-5h5.508v5zm0 5.374v-5.012h5.508v5.007zm0 10.738v-5.008h5.508v5.006zm0 10.729v-5.008h5.508v5.007zm0 5.369v-5h5.508v5zm5.932-32.224v-5h5.508v5zm0 10.743v-5.008h5.508v5.007zm0 5.369v-5.008h5.508v5.007zm0 5.369v-5h5.508v5zm0 10.733v-5.007h5.508v5.007zM38 131.025v-5h5.508v5.005zm5.866 0v-5h5.508v5.005zm5.931 0v-5.011h5.508v5zm5.871 0v-5.011h5.508v5zm5.931 0V126h5.508v5.007zM38 173.972v-5.02h5.508v5zm5.866 0v-5.02h5.508v5zm5.931 0v-5.034h5.508v5zm5.871 0v-5.034h5.508v5zm5.926 0v-5.048H67.1v5.007zm5.967-32.172v-5.048h5.508v5.007zm0 5.369v-5.044h5.508v5.007zm0 5.369v-5.044h5.508v5.006zm0 5.369v-5.044h5.508v5.007zm0 5.36v-5.044h5.508v5.007zm5.931-26.854v-5.039H79v5zm0 5.374v-5.035H79v5zm0 5.369v-5.045H79v5.007zm0 5.369v-5.045H79v5.007zm0 5.369v-5.04H79v5zm0 5.36v-5.045H79v5.007zm0 5.374v-5.045H79v5.007zm-5.931-37.561v-5.053h5.508v5zm5.926 0V126H79v5.007zM67.556 174v-5.062h5.508v5zm5.931 0v-5.076H79v5.007z" fill="#fff"></path>
+  </g>
+</svg>
